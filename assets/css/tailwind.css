@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  transition: background-color 0.4s, color 0.1s;
+}
+
+.dark {
+  @apply bg-dark;
+  @apply text-white;
+}

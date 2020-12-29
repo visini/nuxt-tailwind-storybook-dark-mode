@@ -1,0 +1,50 @@
+{
+  "name": "storybook-nuxt-tailwind",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/color-mode": "^2.0.2",
+    "@nuxtjs/google-fonts": "^1.2.0",
+    "@tailwindcss/ui": "^0.7.2",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/storybook": "^3.3.0",
+    "@nuxtjs/tailwindcss": "^3.4.1",
+    "@storybook/addon-controls": "^6.1.11",
+    "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addon-storysource": "^6.1.11",
+    "@storybook/addons": "^6.1.11",
+    "@storybook/theming": "^6.1.11",
+    "@storybook/vue": "^6.1.11",
+    "@vue/test-utils": "^1.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.5.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.5.0",
+    "prettier": "^2.1.2",
+    "storybook-dark-mode": "^1.0.4",
+    "tailwindcss-dark-mode": "^1.1.7",
+    "vue-jest": "^3.0.4"
+  }
+}

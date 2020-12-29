@@ -2,7 +2,23 @@
 
 See this article for more information: <https://camillovisini.com/article/nuxt-tailwind-storybook-dark-mode/>
 
-## Configuration
+## Makefile
+
+```bash
+~$ make
+
+Usage:
+  make
+
+Development
+  dev              Run nuxt in dev mode
+  storybook        Run nuxt storybook
+
+Helpers
+  help             Display this help
+```
+
+## Create Nuxt App – Configuration
 
 ```text
 $ yarn create nuxt-app

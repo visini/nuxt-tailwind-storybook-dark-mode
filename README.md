@@ -1,4 +1,4 @@
-# storybook-nuxt-tailwind
+# Setting up Dark Mode for Nuxt and Storybook via Tailwind CSS
 
 See full article for more information: <https://camillovisini.com/article/nuxt-tailwind-storybook-dark-mode/>
 

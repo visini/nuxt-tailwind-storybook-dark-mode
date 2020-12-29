@@ -1,6 +1,6 @@
 # storybook-nuxt-tailwind
 
-See xxxxxxx
+See this article for more information: <https://camillovisini.com/article/nuxt-tailwind-storybook-dark-mode/>
 
 ## Configuration
 

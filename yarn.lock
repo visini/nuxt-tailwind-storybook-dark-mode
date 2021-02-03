@@ -1978,17 +1978,17 @@
     core-js "^3.0.1"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-controls@^6.1.15":
-  version "6.1.15"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-6.1.15.tgz#037c7a849bd656eb745cb598aa70e9e81112d54f"
-  integrity sha512-2GLLQZIyRVwawiHemiRXqLcVwGXm0NgJJ1cefQAvh6WFzp2y1eD6M5KUDFKAPvIGuo6vdjdr8BN++R3b1TbmVg==
+"@storybook/addon-controls@^6.1.16":
+  version "6.1.16"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-6.1.16.tgz#478701f02a685927ea0913e4258b84c64ea4b9cf"
+  integrity sha512-yrLP5n+ioyJbjjXqDcYWKji+YpiSSadyF4OdAYtOKo5vyK9NzTapeKsiyHBnY0lseFlNqEzZI8e3W1QxRXWmMQ==
   dependencies:
-    "@storybook/addons" "6.1.15"
-    "@storybook/api" "6.1.15"
-    "@storybook/client-api" "6.1.15"
-    "@storybook/components" "6.1.15"
-    "@storybook/node-logger" "6.1.15"
-    "@storybook/theming" "6.1.15"
+    "@storybook/addons" "6.1.16"
+    "@storybook/api" "6.1.16"
+    "@storybook/client-api" "6.1.16"
+    "@storybook/components" "6.1.16"
+    "@storybook/node-logger" "6.1.16"
+    "@storybook/theming" "6.1.16"
     core-js "^3.0.1"
     ts-dedent "^2.0.0"
 
@@ -2308,6 +2308,19 @@
     qs "^6.6.0"
     telejson "^5.0.2"
 
+"@storybook/channel-postmessage@6.1.16":
+  version "6.1.16"
+  resolved "https://registry.yarnpkg.com/@storybook/channel-postmessage/-/channel-postmessage-6.1.16.tgz#938daf4537ecbae4d3131562179bae706d22c1b6"
+  integrity sha512-Fxz938NVWeNh5mHjghF4PkoMkzO2sk5f/cBpKBveNdIPDImUHrbdfYsfwhDVaY4/JFKyxXQUJBFyt0iYR+Z4jA==
+  dependencies:
+    "@storybook/channels" "6.1.16"
+    "@storybook/client-logger" "6.1.16"
+    "@storybook/core-events" "6.1.16"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    qs "^6.6.0"
+    telejson "^5.0.2"
+
 "@storybook/channels@5.3.21":
   version "5.3.21"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-5.3.21.tgz#53ba622b171d68b3b102983a62aa05149a49497b"
@@ -2376,6 +2389,30 @@
     "@storybook/channels" "6.1.15"
     "@storybook/client-logger" "6.1.15"
     "@storybook/core-events" "6.1.15"
+    "@storybook/csf" "0.0.1"
+    "@types/qs" "^6.9.0"
+    "@types/webpack-env" "^1.15.3"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    memoizerific "^1.11.3"
+    qs "^6.6.0"
+    regenerator-runtime "^0.13.7"
+    stable "^0.1.8"
+    store2 "^2.7.1"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/client-api@6.1.16":
+  version "6.1.16"
+  resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-6.1.16.tgz#d6362d9c6d95a30e47906b8ff9c1daa3a0facd4d"
+  integrity sha512-cMMn3AdwXJm0KtT8RaIVAD5M2eNvxwOc/8AKMK83e79Mux7PujrG/k2TXuXo7aFXXWEzENnkxGZ/EJGPzcZelg==
+  dependencies:
+    "@storybook/addons" "6.1.16"
+    "@storybook/channel-postmessage" "6.1.16"
+    "@storybook/channels" "6.1.16"
+    "@storybook/client-logger" "6.1.16"
+    "@storybook/core-events" "6.1.16"
     "@storybook/csf" "0.0.1"
     "@types/qs" "^6.9.0"
     "@types/webpack-env" "^1.15.3"
@@ -2797,6 +2834,17 @@
     npmlog "^4.1.2"
     pretty-hrtime "^1.0.3"
 
+"@storybook/node-logger@6.1.16":
+  version "6.1.16"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-6.1.16.tgz#a7b25977f562eaaf3fcc4fed35298e22d08ac543"
+  integrity sha512-xwqAhhalwCs6FZvEyizgEhOkSAC+Ww+2bQ0FzHTAATTspp8DnRmSq6VmT8F8W9KJOMd1p4vYVy7C4dLhU2E/sQ==
+  dependencies:
+    "@types/npmlog" "^4.1.2"
+    chalk "^4.0.0"
+    core-js "^3.0.1"
+    npmlog "^4.1.2"
+    pretty-hrtime "^1.0.3"
+
 "@storybook/postinstall@6.1.14":
   version "6.1.14"
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-6.1.14.tgz#ec931739d566bbd3b15b742c32be82701e4910b9"
@@ -2951,7 +2999,7 @@
     resolve-from "^5.0.0"
     ts-dedent "^2.0.0"
 
-"@storybook/theming@^6.1.16":
+"@storybook/theming@6.1.16", "@storybook/theming@^6.1.11":
   version "6.1.16"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.1.16.tgz#012711c0bd224cc6c089ec6c0239bc86c5b2842b"
   integrity sha512-gFcqbTALWdLI6hwUSob3Gn7iIcyp9qp9Oib+8f00ZHDfZnWr8CDQPJ3PcZ322uf35gskDstk8eKqviSZSDUQug==

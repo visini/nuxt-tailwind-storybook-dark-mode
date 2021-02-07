@@ -27,7 +27,7 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/storybook": "^3.3.1",
     "@nuxtjs/tailwindcss": "^3.4.1",
-    "@storybook/addon-controls": "^6.1.16",
+    "@storybook/addon-controls": "^6.1.17",
     "@storybook/addon-notes": "^5.3.21",
     "@storybook/addon-storysource": "^6.1.16",
     "@storybook/addons": "^6.1.15",

@@ -29,7 +29,7 @@
     "@nuxtjs/tailwindcss": "^3.4.1",
     "@storybook/addon-controls": "^6.1.20",
     "@storybook/addon-notes": "^5.3.21",
-    "@storybook/addon-storysource": "^6.1.19",
+    "@storybook/addon-storysource": "^6.1.20",
     "@storybook/addons": "^6.1.15",
     "@storybook/theming": "^6.1.16",
     "@storybook/vue": "^6.1.18",

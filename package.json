@@ -18,7 +18,7 @@
     "@nuxtjs/color-mode": "^2.0.3",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@tailwindcss/ui": "^0.7.2",
-    "core-js": "^3.9.0",
+    "core-js": "^3.9.1",
     "nuxt": "^2.15.2"
   },
   "devDependencies": {

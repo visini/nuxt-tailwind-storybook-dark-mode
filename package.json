@@ -26,7 +26,7 @@
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/storybook": "^3.3.1",
-    "@nuxtjs/tailwindcss": "^3.4.1",
+    "@nuxtjs/tailwindcss": "^4.0.2",
     "@storybook/addon-controls": "^6.1.20",
     "@storybook/addon-notes": "^5.3.21",
     "@storybook/addon-storysource": "^6.1.20",

@@ -30,7 +30,7 @@
     "@storybook/addon-controls": "^6.2.8",
     "@storybook/addon-notes": "^5.3.21",
     "@storybook/addon-storysource": "^6.2.8",
-    "@storybook/addons": "^6.1.21",
+    "@storybook/addons": "^6.2.9",
     "@storybook/theming": "^6.1.16",
     "@storybook/vue": "^6.2.8",
     "@vue/test-utils": "^1.1.4",
